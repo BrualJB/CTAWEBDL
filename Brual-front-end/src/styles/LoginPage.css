@@ -1,0 +1,98 @@
+.loginpage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #eae7e6;
+  padding: 20px;
+}
+
+.loginpage-card {
+  background: #61DAFB;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  width: 200px;
+  max-width: 400px;
+}
+
+.loginpage-title {
+  color: #000000;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.loginpage-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.loginpage-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.loginpage-label {
+  color: #000000;
+  font-weight: 500;
+}
+
+.loginpage-input {
+  padding: 0.8rem;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.loginpage-input:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+.loginpage-button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loginpage-button:hover {
+  background-color: #535bf2;
+}
+
+.loginpage-register {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.loginpage-register-button {
+  padding: 0.8rem;
+  background-color: #4CAF50; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loginpage-register-button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 480px) {
+  .loginpage-card {
+    padding: 1.5rem;
+  }
+}
