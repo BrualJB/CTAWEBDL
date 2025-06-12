@@ -6,7 +6,7 @@ import HomePage from './pages/LandingPages/HomePage';
 import ArticleListPage from './pages/LandingPages/ArticleListPage';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import NotFoundPage from './pages/LandingPages/NotFoundPage';
-import LoginPage from './pages/LandingPages/Loginpage';
+import LoginPage from './pages/LandingPages/LoginPage';
 import RegisterPage from './pages/LandingPages/RegisterPage';
 import AuthLayout from './components/AuthLayout'; 
 import DashLayout from './components/DashLayout';
